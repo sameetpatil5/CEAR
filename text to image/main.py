@@ -3,7 +3,7 @@ from io import BytesIO
 from PIL import Image
 
 # Read the encoded string from the text file
-with open("image to text/encoded_image.txt", "r") as file:
+with open("encoded/encoded_image.txt", "r") as file:
     encoded_string = file.read()
 
 # Decode the string
